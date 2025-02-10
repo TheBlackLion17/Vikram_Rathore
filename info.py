@@ -13,18 +13,18 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '26274714'))
-API_HASH = environ.get('API_HASH', '426333ef463416eaa332da1d813c9105')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7173641636:AAGli-35VJ2lhUrZQftMa1TWXMaNFqwE5Mk")
+API_ID = int(environ.get('API_ID', '20919286'))
+API_HASH = environ.get('API_HASH', '57b85f72104db3f08f9795b0410eb556')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7174411060:AAEQCnvh__ks7II0UpoLEj8jGyL3mOd4L0U")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/10227000cc9b8620abee0.jpg https://graph.org/file/a73c87a2f99e29a240c34.jpg https://graph.org/file/a95265c23620402559db5.jpg https://graph.org/file/890b6ddf19d515a4754ad.jpg https://graph.org/file/5ca2e65d1ec560ed81dcf.jpg https://graph.org/file/d04ce639d3914b922e180.jpg https://graph.org/file/934334a974d5d930b6ae5.jpg https://graph.org/file/23676243e6c911ca0d6e3.jpg https://graph.org/file/9e815b9d16e996c779d9b.jpg https://graph.org/file/200b827daa7e557f9448c.jpg https://graph.org/file/4d85f124eaf90f3ec5df9.jpg https://graph.org/file/e9b250020c683566f81f6.jpg https://graph.org/file/66b73942bc5a454ca19bb.jpg https://graph.org/file/b89b57383666ed579f006.jpg https://graph.org/file/400a70a15a05f6a6339af.jpg https://graph.org/file/bac3c0e4701f34d7447cd.jpg https://graph.org/file/f962b9e88b2ab1737d21c.jpg https://graph.org/file/d86db9732b4b430edb65c.jpg https://graph.org/file/4d95f39f922a3e0f09d6f.jpg https://graph.org/file/03cde96db2ac56f7cd7de.jpg https://graph.org/file/e6bf0acaf479cea2fe350.jpg https://graph.org/file/bcfd3c61329fa96eb86d4.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "")
-MELCOW_VID = environ.get("MELCOW_VID", "")
-SPELL_IMG = environ.get("SPELL_IMG", "")
+PICS = (environ.get('PICS', 'https://envs.sh/BK.jpg','https://envs.sh/II.jpg','https://envs.sh/In.jpg','https://envs.sh/IT.jpg','https://envs.sh/I_.jpg','https://envs.sh/Ic.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/Bq.mp4")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/ᴘʟᴀɴs-ᴘʀᴇᴍɪᴜᴍ-ғᴇᴀᴛᴜʀᴇs-Get-04-01'))
 CODE = (environ.get('CODE', ''))
 
@@ -34,24 +34,24 @@ STREAM_API = (environ.get('STREAM_API', '00ee086508c091442b22b2913ca7971fc59fcd2
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Filmy_Rohesh'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7165581725 5991943478 6835307903').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002037022509').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6976445947').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001871354889').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002104922264') #Channel / Group Id for force sub ( make sure bot is admin )
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6976445947').split()]
+auth_channel = environ.get('AUTH_CHANNEL', '-1001668695643') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '') # request channel id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001668695643') # support group id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002255271323') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://herukoid1:GNli5O0mVUA4DPVjcluster0.rqded.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "KaranSinghReetor")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akagameres:akagrameres@cluster0.xtcxn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
@@ -66,13 +66,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movies4UWorldOfficiall')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AwaraTeamSupport')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Filmy_Rohesh') # Tutorial video link for opening shortlink website 
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Screen_Gem_Squad')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Screen_Gem_Squadt')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Screen_Gem_Squad') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ :𓆩Ꭺᴡᴀʀᴀ𓆪ꪾ')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002071135878')) #Log channel id ( make sure bot is admin )
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Movies4UWorldOfficiall') #Support group link ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002109728204')) #Log channel id ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Screen_Gem_Squad') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -85,7 +85,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002071135878')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001871354889')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
@@ -112,9 +112,9 @@ URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'Vikram_Rathore'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'LazyPrincess'))
+name = str(environ.get('name', 'Vikram_Rathore'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -129,7 +129,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002071135878'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002109728204'))
 
 
 

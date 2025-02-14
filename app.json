@@ -1,5 +1,5 @@
 {
-    "name": "TheMovieProviderBot",
+    "name": "LucyV5",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/HarshalPurohitEdits/TheMovieProviderBot",
-    "repository": "https://github.com/HarshalPurohitEdits/TheMovieProviderBot",
+    "website": "https://github.com/Codeflix-Bots/AutoFilter",
+    "repository": "https://github.com/Codeflix-Bots/AutoFilter",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -58,6 +58,10 @@
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
             "required": true
         },
+        "DATABASE_URI2": {
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
+            "required": true
+        },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
             "required": false
@@ -75,7 +79,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "basci"
+            "size": "eco"
         }
     }
 }

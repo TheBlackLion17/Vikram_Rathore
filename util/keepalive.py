@@ -5,7 +5,6 @@ import aiohttp
 import traceback
 from info import *
 
-
 async def ping_server():
     sleep_time = PING_INTERVAL
     while True:

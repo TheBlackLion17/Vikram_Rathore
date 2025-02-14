@@ -1,9 +1,32 @@
-# https://github.com/odysseusmax/animated-lamp/blob/master/bot/database/database.py
-import motor.motor_asyncio
-from info import DATABASE_NAME, DATABASE_URI, IMDB, IMDB_TEMPLATE, MELCOW_NEW_USERS, P_TTI_SHOW_OFF, SINGLE_BUTTON, SPELL_CHECK_REPLY, PROTECT_CONTENT, AUTO_DELETE, MAX_BTN, AUTO_FFILTER, SHORTLINK_API, SHORTLINK_URL, IS_SHORTLINK, TUTORIAL, IS_TUTORIAL
-import datetime
-import pytz
 
+import motor.motor_asyncio
+from info import DATABASE_NAME, DATABASE_URI, DATABASE_URI2, IMDB, IMDB_TEMPLATE, MELCOW_NEW_USERS, P_TTI_SHOW_OFF, SINGLE_BUTTON, SPELL_CHECK_REPLY, PROTECT_CONTENT, AUTO_DELETE, MAX_BTN, AUTO_FFILTER, SHORTLINK_API, SHORTLINK_URL, IS_SHORTLINK, TUTORIAL, IS_TUTORIAL, VERIFY
+import datetime
+import pytz  
+from pymongo.errors import DuplicateKeyError
+from pymongo import MongoClient
+
+my_client = MongoClient(DATABASE_URI)
+mydb = my_client["filename"]
+
+async def add_name(user_id, filename):
+    user_db = mydb[str(user_id)]
+    user = {'_id': filename}
+
+    existing_user = user_db.find_one({'_id': filename})
+
+    if existing_user is not None:
+        return False
+    try:
+        user_db.insert_one(user)
+        return True
+    except DuplicateKeyError:
+        return False
+    
+async def delete_all_msg(user_id):
+    user_db = mydb[str(user_id)]
+    user_db.delete_many({})
+    
 class Database:
     
     def __init__(self, uri, database_name):
@@ -42,6 +65,23 @@ class Database:
                 reason="",
             ),
         )
+
+    async def update_verification(self, id, date, time):
+        status = {
+            'date': str(date),
+            'time': str(time)
+        }
+        await self.col.update_one({'id': int(id)}, {'$set': {'verification_status': status}})
+
+    async def get_verified(self, id):
+        default = {
+            'date': "1999-12-31",
+            'time': "23:59:59"
+        }
+        user = await self.col.find_one({'id': int(id)})
+        if user:
+            return user.get("verification_status", default)
+        return default    
     
     async def add_user(self, id, name):
         user = self.new_user(id, name)
@@ -133,7 +173,8 @@ class Database:
             'shortlink_api': SHORTLINK_API,
             'is_shortlink': IS_SHORTLINK,
             'tutorial': TUTORIAL,
-            'is_tutorial': IS_TUTORIAL
+            'is_tutorial': IS_TUTORIAL,
+            'is_verify': VERIFY,
         }
         chat = await self.grp.find_one({'id':int(id)})
         if chat:
@@ -172,7 +213,6 @@ class Database:
         if user_data:
             expiry_time = user_data.get("expiry_time")
             if expiry_time is None:
-                # User previously used the free trial, but it has ended.
                 return False
             elif isinstance(expiry_time, datetime.datetime) and datetime.datetime.now() <= expiry_time:
                 return True
@@ -185,7 +225,6 @@ class Database:
 
     async def update_one(self, filter_query, update_data):
         try:
-            # Assuming self.client and self.users are set up properly
             result = await self.users.update_one(filter_query, update_data)
             return result.matched_count == 1
         except Exception as e:
@@ -211,11 +250,17 @@ class Database:
         return False
 
     async def give_free_trial(self, user_id):
-        #await set_free_trial_status(user_id)
         user_id = user_id
         seconds = 5*60         
         expiry_time = datetime.datetime.now() + datetime.timedelta(seconds=seconds)
         user_data = {"id": user_id, "expiry_time": expiry_time, "has_free_trial": True}
         await self.users.update_one({"id": user_id}, {"$set": user_data}, upsert=True)
+
+    async def all_premium_users(self):
+        count = await self.users.count_documents({
+        "expiry_time": {"$gt": datetime.datetime.now()}
+        })
+        return count    
         
 db = Database(DATABASE_URI, DATABASE_NAME)
+db2 = Database(DATABASE_URI2, DATABASE_NAME)

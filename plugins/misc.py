@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client, filters, enums
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
-from info import IMDB_TEMPLATE
+from info import IMDBSEARCH_TEMPLATE
 from utils import extract_user, get_file_id, get_poster, last_online
 import time
 from datetime import datetime
@@ -9,6 +9,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
+
+
 
 @Client.on_message(filters.command('id'))
 async def showid(client, message):
@@ -27,20 +29,20 @@ async def showid(client, message):
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         _id = ""
         _id += (
-            "<b>» ᴄʜᴀᴛ ɪᴅ -</b>: "
+            "<b>➲ Chat ID</b>: "
             f"<code>{message.chat.id}</code>\n"
         )
         if message.reply_to_message:
             _id += (
-                "<b>» ᴜꜱᴇʀ ɪᴅ -</b>: "
+                "<b>➲ User ID</b>: "
                 f"<code>{message.from_user.id if message.from_user else 'Anonymous'}</code>\n"
-                "<b>» ʀᴇᴘʟɪᴇᴅ ᴜsᴇʀ ɪᴅ -</b>: "
+                "<b>➲ Replied User ID</b>: "
                 f"<code>{message.reply_to_message.from_user.id if message.reply_to_message.from_user else 'Anonymous'}</code>\n"
             )
             file_info = get_file_id(message.reply_to_message)
         else:
             _id += (
-                "<b>» ᴜꜱᴇʀ ɪᴅ -</b>: "
+                "<b>➲ User ID</b>: "
                 f"<code>{message.from_user.id if message.from_user else 'Anonymous'}</code>\n"
             )
             file_info = get_file_id(message)
@@ -58,10 +60,10 @@ async def showid(client, message):
 async def who_is(client, message):
     # https://github.com/SpEcHiDe/PyroGramBot/blob/master/pyrobot/plugins/admemes/whois.py#L19
     status_message = await message.reply_text(
-        "`ғᴇᴛᴄʜɪɴɢ ᴜsᴇʀ ɪɴғᴏ...`"
+        "`Fetching user info...`"
     )
     await status_message.edit(
-        "`ᴘʀᴏᴄᴇssɪɴɢ user info...`"
+        "`Processing user info...`"
     )
     from_user = None
     from_user_id, _ = extract_user(message)
@@ -89,7 +91,7 @@ async def who_is(client, message):
                 chat_member_p.joined_date or datetime.now()
             ).strftime("%Y.%m.%d %H:%M:%S")
             message_out_str += (
-                "<b>» ᴊᴏɪɴᴇᴅ ᴛʜɪs ᴄʜᴀᴛ ᴏɴ -</b> <code>"
+                "<b>➲Joined this Chat on:</b> <code>"
                 f"{joined_date}"
                 "</code>\n"
             )
@@ -101,7 +103,7 @@ async def who_is(client, message):
             message=chat_photo.big_file_id
         )
         buttons = [[
-            InlineKeyboardButton('🚜 ᴄʟᴏsᴇ 🚜', callback_data='close_data')
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -115,7 +117,7 @@ async def who_is(client, message):
         os.remove(local_user_photo)
     else:
         buttons = [[
-            InlineKeyboardButton('🚜 ᴄʟᴏsᴇ 🚜', callback_data='close_data')
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -162,7 +164,7 @@ async def imdb_callback(bot: Client, quer_y: CallbackQuery):
         ]
     message = quer_y.message.reply_to_message or quer_y.message
     if imdb:
-        caption = IMDB_TEMPLATE.format(
+        caption = IMDBSEARCH_TEMPLATE.format(
             query = imdb['title'],
             title = imdb['title'],
             votes = imdb['votes'],

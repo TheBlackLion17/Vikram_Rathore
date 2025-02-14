@@ -1,15 +1,33 @@
+━━━━━━━━━━━━━━━━━━━━
+
+<h2 align="center">
+    ──「 ʟᴜᴄʏ ✘ ʀᴏʙᴏᴛ 」──
+</h2>
+
 <p align="center">
-  <img src="https://graph.org/file/10227000cc9b8620abee0.jpg" alt="Rohesh Princess Logo">
-</p>
-<h1 align="center">
-  <a href="https://telegram.me/Rohesh_Bot">ROHESH PRINCESS</a>
-</h1>
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+TOJI-MV-BOT;A+SIMPLE+AND+POWERFUL+BOT!;A+BOT+WITH+CUSTOM+URL+SHORTNER;AND+CUSTOM+TUTORIAL!;ALSO+HAVE+STREAM+ONLINE;AND+FAST+DOWNLOAD+FEATURE!;AND+MANY+MORE+FEATURES!)
+  <img src="https://envs.sh/Wdj.jpg">
 </p>
 
-## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
+_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙᴏᴛ](https://t.me/lucy_filter_bot)**_
 
+<p align="center">
+<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
+</p>
+
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+</h3>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Codeflix-Bots/l"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs/ʟᴏᴄᴀʟ 」─
+</h3>
+
+<details><summary><b> - ғᴇᴀᴛᴜʀᴇs :</b></summary>
+  
+## features
 - [x] 𝑺𝒉𝒐𝒓𝒕𝒏𝒆𝒓 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒊𝒏 𝑺𝒕𝒓𝒆𝒂𝒎 𝒂𝒏𝒅 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅 𝒇𝒆𝒂𝒕𝒖𝒓𝒆
 - [x] 𝑮𝒐𝒐𝒅 𝑴𝒐𝒓𝒏𝒊𝒏𝒈, 𝑨𝒇𝒕𝒆𝒓𝒏𝒐𝒐𝒏, 𝑬𝒗𝒆𝒏𝒊𝒏𝒈, 𝑵𝒊𝒈𝒉𝒕 𝒘𝒊𝒔𝒉𝒆𝒔 
 - [x] 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝒕𝒐 𝒋𝒐𝒊𝒏 𝒊𝒏 𝑭𝒔𝒖𝒃
@@ -49,142 +67,112 @@
 - [x] 𝑈𝑠𝑒𝑟 𝑈𝑛𝑏𝑎𝑛
 - [x] 𝐶ℎ𝑎𝑡 𝐿𝑒𝑎𝑣𝑒
 - [x] 𝐶ℎ𝑎𝑡 𝐷𝑖𝑠𝑎𝑏𝑙𝑒
-- [x] 𝑆𝑝𝑒𝑙𝑙𝑖𝑛𝑔 𝐶ℎ𝑒𝑐𝑘 𝐹𝑒𝑎𝑡𝑢𝑟𝑒
+- [x] Ai.𝑆𝑝𝑒𝑙𝑙𝑖𝑛𝑔 𝐶ℎ𝑒𝑐𝑘 𝐹𝑒𝑎𝑡𝑢𝑟𝑒
 - [x] 𝐹𝑖𝑙𝑒 𝑆𝑡𝑜𝑟𝑒
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
+- [x] Refer future
+- [x] Redeem Code Future
+- [x] Top Trending future
+- [x] Most Search
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 
-<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://t.me/Filmy_Rohesh'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
+and more....
 
-## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
+## ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇʀs ᴄᴏᴍᴍᴀɴᴅs
+- [x] start - ꜱᴛᴀʀᴛ ᴍᴇ...
+- [x] connect - ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪɴ ᴘᴍ...
+- [x] shortlink - ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ...
+- [x] set_tutorial - ꜱᴇᴛ ʏᴏᴜʀ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅ...
+- [x] remove_tutorial - ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅ...
+- [x] settings - ᴄʜᴀɴɢᴇ ʙᴏᴛ ꜱᴇᴛᴛɪɴɢꜱ...
+- [x] disconnect - ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ...
+- [x] connections - ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘꜱ...
+- [x] plan - ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ ᴘʟᴀɴꜱ...
+- [x] myplan - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴜɴᴛ ᴘʟᴀɴ...
+- [x] stats - ᴄʜᴇᴄᴋ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ...
+- [x] info - ɢᴇᴛ ᴜꜱᴇʀ ɪɴꜰᴏ...
+- [x] id - ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ...
+- [x] shortlink_info - ɢᴇᴛ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ɪɴꜰᴏ...
+- [x] shorlinkon - ᴏɴ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ꜰʀᴏᴍ ɢʀᴘ...
+- [x] shortlinkoff - ᴏꜰꜰ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ꜰʀᴏᴍ ɢʀᴘ...
+- [x] link - ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ꜰᴏʀ ᴏɴᴇ ᴘᴏꜱᴛ...
+- [x] batch - ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ꜰᴏʀ ʙᴜʟᴋ ᴘᴏꜱᴛꜱ...
+- [x] deleteall - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ꜰɪʟᴇꜱ ꜰʀᴏᴍ ᴅʙ...
+- [x] delete - ᴅᴇʟᴇᴛᴇ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ...
+- [x] deletefiles - ᴅᴇʟᴇᴛᴇ ᴘʀᴇᴅᴠᴅ ᴀɴᴅ ᴄᴀᴍʀɪᴘ ꜰɪʟᴇꜱ...
+- [x] broadcast - ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴜꜱᴇʀꜱ...
+- [x] grp_broadcast - ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ɢʀᴏᴜᴘꜱ...
+- [x] enable - ᴇɴᴀʙʟᴇ ᴛᴏ ᴊᴏɪɴ ɪɴ ɢʀᴏᴜᴘ...
+- [x] disable - ᴅɪꜱᴀʙʟᴇ ᴀɴʏ ɢʀᴏᴜᴘ...
+- [x] leave - ʟᴇᴀᴠᴇ ꜰʀᴏᴍ ᴀɴʏ ɢʀᴏᴜᴘ...
+- [x] ban - ʙᴀɴ ᴜꜱᴇʀ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ...
+- [x] unban - ᴜɴʙᴀɴ ᴜꜱᴇʀ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ...
+- [x] add_redeem - to create redeem code
+- [x] add_premium - ᴀᴅᴅ ᴀɴʏ ᴜꜱᴇʀ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ...
+- [x] remove_premium - ʀᴇᴍᴏᴠᴇ ᴀɴʏ ᴜꜱᴇʀ ꜰʀᴏᴍ ᴘʀᴇᴍɪᴜᴍ...
+- [x] premium_users - ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ...
+- [x] restart - ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ...
+- [x]  ᴜsᴇʀs - ᴛᴏ ᴠɪᴇᴡ ᴏғ ʟɪsᴛᴏғ ᴜsᴇʀs, ᴜsɪɴɢ ʙᴏᴛ [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ]
+- [x]  ʙʀᴏᴀᴅᴄᴀsᴛ - ᴍᴇssᴀɢᴇ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴍᴀɴᴅ [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ]
+- [x]  ʙᴀɴ - ʟᴇᴛs ʏᴏᴜ ʙᴀɴ ᴀ ᴜsᴇʀ ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜᴏᴜᴛ ɢɪᴠɪɴɢ ʜɪᴍ ᴛʜᴇ ᴘᴏssɪʙɪʟɪᴛʏ ᴛᴏ Jᴏɪɴ ᴀɢᴀɪɴ ᴜsɪɴɢ ᴛʜᴇ ʟɪɴᴋ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ. [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ].
+- [x]  sᴇᴛᴛɪɴɢs - ʟᴇᴛs ʏᴏᴜ ᴍᴀɴᴀɢᴇ ᴀʟʟ ᴛʜᴇ Bᴏᴛ sᴇᴛᴛɪɴɢs ɪɴ ᴀ ɢʀᴏᴜᴘ.  [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ]
+- [x]  ᴍᴜᴛᴇ/ᴋɪᴄᴋ - ʟᴇᴛs ʏᴏᴜ ʀᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ ɢʀᴏᴜᴘ's ʙʟᴀᴄᴋʟɪsᴛ, ɢɪᴠɪɴɢ ᴛʜᴇᴍ ᴛʜᴇ ᴘᴏssɪʙɪʟɪᴛʏ ᴛᴏ Jᴏɪɴ ᴀɢᴀɪɴ ᴡɪᴛʜ ᴛʜᴇ ʟɪɴᴋ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.  [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ].
+</details>
+
+## ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs
+```- [x] API_ID - get it from telegram app
+- [x] API_HASH - get it from telegram app
+- [x] BOT_TOKEN - get it from telegram app
+- [x] ADMINS - for 2 or more '12345678 89674523' add space between ids
+- [x] LOG_CHANNEL - add a private channel id
+- [x] CHANNELS - add your database channel id ,if u will share your file here the bot will add the file in database autometiccaly
+- [x] DATABASE_URI - if you dont know how to get it, read this documentation from scratch
+- [x] LOG_CHANNEL - add a private channel id
 ```
-start - ꜱᴛᴀʀᴛ ᴍᴇ...
-connect - ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪɴ ᴘᴍ...
-shortlink - ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ...
-set_tutorial - ꜱᴇᴛ ʏᴏᴜʀ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅ...
-remove_tutorial - ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅ...
-settings - ᴄʜᴀɴɢᴇ ʙᴏᴛ ꜱᴇᴛᴛɪɴɢꜱ...
-disconnect - ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ...
-connections - ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘꜱ...
-plan - ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ ᴘʟᴀɴꜱ...
-myplan - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴜɴᴛ ᴘʟᴀɴ...
-stats - ᴄʜᴇᴄᴋ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ...
-info - ɢᴇᴛ ᴜꜱᴇʀ ɪɴꜰᴏ...
-id - ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ...
-shortlink_info - ɢᴇᴛ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ɪɴꜰᴏ...
-setshorlinkon - ᴏɴ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ꜰʀᴏᴍ ɢʀᴘ...
-setshortlinkoff - ᴏꜰꜰ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ꜰʀᴏᴍ ɢʀᴘ...
-link - ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ꜰᴏʀ ᴏɴᴇ ᴘᴏꜱᴛ...
-batch - ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ꜰᴏʀ ʙᴜʟᴋ ᴘᴏꜱᴛꜱ...
-deleteall - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ꜰɪʟᴇꜱ ꜰʀᴏᴍ ᴅʙ...
-delete - ᴅᴇʟᴇᴛᴇ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ...
-deletefiles - ᴅᴇʟᴇᴛᴇ ᴘʀᴇᴅᴠᴅ ᴀɴᴅ ᴄᴀᴍʀɪᴘ ꜰɪʟᴇꜱ...
-broadcast - ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴜꜱᴇʀꜱ...
-grp_broadcast - ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ɢʀᴏᴜᴘꜱ...
-enable - ᴇɴᴀʙʟᴇ ᴛᴏ ᴊᴏɪɴ ɪɴ ɢʀᴏᴜᴘ...
-disable - ᴅɪꜱᴀʙʟᴇ ᴀɴʏ ɢʀᴏᴜᴘ...
-leave - ʟᴇᴀᴠᴇ ꜰʀᴏᴍ ᴀɴʏ ɢʀᴏᴜᴘ...
-ban - ʙᴀɴ ᴜꜱᴇʀ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ...
-unban - ᴜɴʙᴀɴ ᴜꜱᴇʀ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ...
-add_premium - ᴀᴅᴅ ᴀɴʏ ᴜꜱᴇʀ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ...
-remove_premium - ʀᴇᴍᴏᴠᴇ ᴀɴʏ ᴜꜱᴇʀ ꜰʀᴏᴍ ᴘʀᴇᴍɪᴜᴍ...
-premium_users - ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ...
-restart - ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ...
-```
+</details>
 
-## Variables
 
-### Required Variables
-* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
-* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `CHANNELS`: ID of channel for Auto Indexing. Separate multiple IDs by space. Make sure bot is admin.
-* `ADMINS`: ID of Admin. Separate multiple Admins by space.
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
-* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+<details>
+<summary><h3>
+- <b> ᴠᴘs/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ </b>
+</h3></summary>
 
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/mvvaibhav/TOJI">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
-</a>
+- Get your [Necessary Variables](https://github.com/Codeflix-Bots/AutoFilter/main/info.py)
+- git clone https://github.com/Codeflix-Bots/AutoFilter
+- # Install Packages
+- pip3 install -U -r requirements.txt
+- Edit info.py with variables as given below then run bot
+- python3 bot.py
+
+<p align="center">
+  <img src="https://graph.org/file/6126c635b91aa6bd8a4b3.jpg">
 </p>
+
+
 </details>
+━━━━━━━━━━━━━━━━━━━━
 
-<details><summary>Deploy To Koyeb</summary>
-<br>
-<b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
-<br>
-<br>
+<h3 align="center">
+    ─「 sᴜᴩᴩᴏʀᴛ 」─
+</h3>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/mvvaibhav/TOJI&branch=main&name=TOJI )
-</details>
-
-<details><summary>Deploy To Render</summary>
-<br>
-<b>
-Use these commands:
-<br>
-<br>
-• Build Command: <code>pip3 install -U -r requirements.txt</code>
-<br>
-<br>
-• Start Command: <code>python3 bot.py</code>
-<br>
-<br>
-Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
-<br>
-<br>
-Use these settings when adding a monitor:</b>
-<br>
-<br>
-<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
-<br>
-<br>
-<b>Click on the below button to deploy directly to render ↓</b>
-<br>
-<br>
-<a href="https://render.com/deploy?repo=https://github.com/mvvaibhav/TOJI/tree/main">
-<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
-</a>
-</details>
-
-<details><summary>Deploy To VPS</summary>
-<p>
-<pre>
-git clone https://github.com/mvvaibhav/TOJI
-# Install Packages
-pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
+<p align="center">
+<a href="https://telegram.me/codeflixsupport"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
-</details>
+<p align="center">
+<a href="https://telegram.me/codeflix_bots"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
 
-<hr>
+━━━━━━━━━━━━━━━━━━━━
 
+<h3 align="center">
+    ─「 ᴄʀᴇᴅɪᴛs 」─
+</h3>
 
-
-## Note 🏷️
+- <b>[ʏᴀᴛᴏ](https://github.com/Codeflix-Bots)  ➻  [ɴᴏᴛʜɪɴɢ](https://github.com/) </b>
+- <b>[sᴜʙᴀʀᴜ](https://github.com/Codeflix-Bots)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/) </b>
+- <b>[ʏᴜᴊɪ](https://github.com/Codeflix-Bots)  ➻  [ᴇᴠᴇʀʏᴛʜɪɴɢ](https://github.com/) </b>
  
-* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/Rohesh_Gavit)
+<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/Codeflix-Bots/LucyV2/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟᴜᴄʏ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
-[Note To A So Called Dev](https://telegram.dog/subin_works/203): 
-
-Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo won't make you a Developer.
-Fork the repo and edit as per your needs.
-
-## Disclaimer
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/EvamariaTG/evamaria/blob/master/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
-
-
-python3 bot.py
-</pre>
-</p>
-</details>
-r an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo won't make you a Developer.
-Fork the repo and edit as per your needs.
+━━━━━━━━━━━━━━━━━━━━
